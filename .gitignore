@@ -1,0 +1,39 @@
+# Environment and secrets
+.claude/skills/get-next/scripts/__pycache__/
+.claude/settings.local.json
+.env_claude
+.env
+.env.*
+
+# Go binaries and build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/dist/
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of go coverage
+*.out
+coverage.html
+
+# Go workspace file
+go.work.sum
+
+# Dependency directories
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
